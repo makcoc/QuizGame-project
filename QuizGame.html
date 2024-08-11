@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Makcoc_QuizGame</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div id="header_png">
+    <header>
+      <a href="QuizGame.html"> <img src="./images/logo.png" width="120" height="120"> </a>
+    </header>
+  </div>
+
+  <h1 id="head_main"  >Выберите викторину</h1> 
+    <div id="categories"  class="categories" type="button">
+      <button data-id ="dota2" class="main_btns">Dota2</button>
+      <button data-id ="anime" class="main_btns">Anime</button>
+      <button data-id ="math" class="main_btns">Math</button>
+      <button data-id ="english" class="main_btns">English</button>
+    </div>
+
+<div id="quiz_box" class="hide">
+  <h2 id="question_text"> question </h2>
+  <h3 id="feedback_text"></h3>
+    <ul class="answers">
+     
+    </ul>
+  <!-- <button id="next_btn">Next</button>    -->
+</div>
+
+<div id="results">
+
+</div>
+
+  <script src="./js/index.js"></script>
+
+</body>
+</html>

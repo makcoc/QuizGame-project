@@ -18,6 +18,9 @@
   background-color: #0773a5
 }
 
+.header_main {
+ font-size: 24pt; 
+}
 .hide {
   display: none;
 }

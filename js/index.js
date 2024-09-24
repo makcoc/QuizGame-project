@@ -10,13 +10,23 @@ let i = 0;
 
 const dota2questions = [
     {
-        text: 'В каком году был оффициальный релиз дота 2?',
+        text: 'В каком году был оффициальный релиз Dota 2?',
         answers: ['2012', '2013', '2010', '2015'],
         correct: 1,
     },
     {
         text: 'в каком году российская команда впервые выиграла The International по Dota 2?',
         answers: ['2017', '2015', '2023', '2021'],
+        correct: 3,
+    },
+    {
+        text: 'Какой предмет из перечисленных является самым дорогим?',
+        answers: ['Divine Rapier', 'Bloodthorn', 'Scythe of Vyse', 'Overwhelming Blink'],
+        correct: 3,
+    },
+    {
+        text: '',
+        answers: ['Divine Rapier', 'Bloodthorn', 'Scythe of Vyse', 'Overwhelming Blink'],
         correct: 3,
     },
     

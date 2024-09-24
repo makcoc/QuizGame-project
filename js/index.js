@@ -31,9 +31,9 @@ const dota2questions = [
     },
 
     {
-        text: '',
-        answers: ['', '', '', ''],
-        correct: 0,
+        text: 'Сколько маны воссстанавливает один заряд Magic Stick?',
+        answers: ['10', '15', '18', '20'],
+        correct: 1,
     },
 ];
 

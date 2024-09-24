@@ -25,9 +25,9 @@ const dota2questions = [
         correct: 3,
     },
     {
-        text: '',
-        answers: ['Divine Rapier', 'Bloodthorn', 'Scythe of Vyse', 'Overwhelming Blink'],
-        correct: 3,
+        text: 'Какой нейтральный крип имеет способность Purge',
+        answers: ['Сатир-колдун', 'Сатир-мучитель', 'Сатир-душекрад', 'Призрак'],
+        correct: 0,
     },
     
 ];

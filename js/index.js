@@ -40,9 +40,3 @@ const dota2questions = [
 
 
 
-
-btns = document.querySelectorAll('.main_btns');
-btns.forEach(element => {
-    element.addEventListener('click', start_quiz);
-    
-});

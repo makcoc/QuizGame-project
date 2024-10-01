@@ -41,7 +41,7 @@ const dota2questions = [
 
 function startgame() {
     hideMainMenu() {
-        document.getElementById('quiz_window').classList.add('hidden');
+        document.getElementById('quiz_window').classList.add('hide');
     }
 }
 

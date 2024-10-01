@@ -9,7 +9,7 @@ let i = 0;
 
 
 const dota2questions = [
-    {
+    {https://github.com/makcoc/QuizGame-project/blob/main/js/index.js
         text: 'В каком году был оффициальный релиз Dota 2?',
         answers: ['2012', '2013', '2010', '2015'],
         correct: 1,
@@ -37,11 +37,8 @@ const dota2questions = [
     },
 ];
 
-
-
-function startgame() {
+dota2_button.addEventListener('click', startgame() {
   categories.classList.add('hide');
-}
-
+        )
 
 

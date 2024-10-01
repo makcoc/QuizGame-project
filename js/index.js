@@ -5,7 +5,7 @@ const questionElement = document.getElementById('question');
 const answerButtonsElement = document.getElementById('answer-buttons');
 const quiz_box_Element = document.getElementById('quiz_box');
 let i = 0;
-
+https://github.com/makcoc/QuizGame-project/blob/main/js/index.js
 
 
 const dota2questions = [
@@ -37,8 +37,9 @@ const dota2questions = [
     },
 ];
 
-dota2_button.addEventListener('click', startgame() {
-  categories.classList.add('hide');
-        )
+dota2_button.addEventListener('click', function() {
+  categories.classList.add('hide')}
+                             );
+        
 
 

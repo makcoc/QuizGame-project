@@ -40,9 +40,7 @@ const dota2questions = [
 
 
 function startgame() {
-    hideMainMenu() {
-        categories.classList.add('hide');
-    };
+  categories.classList.add('hide');
 }
 
 

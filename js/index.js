@@ -1,5 +1,5 @@
 const dota2_button = document.getElementById('start_dota2');
-const categories = document.getElementById('categories');
+const categories = document.getElementById('quiz_window');
 const h1 = document.getElementById('head_main');
 const questionElement = document.getElementById('question');
 const answerButtonsElement = document.getElementById('answer-buttons');
@@ -41,8 +41,8 @@ const dota2questions = [
 
 function startgame() {
     hideMainMenu() {
-        document.getElementById('quiz_window').classList.add('hide');
-    }
+        categories.classList.add('hide');
+    };
 }
 
 

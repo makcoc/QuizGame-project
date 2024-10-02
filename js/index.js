@@ -38,7 +38,8 @@ const dota2questions = [
 ];
 
 dota2_button.addEventListener('click', function() {
-  categories.classList.add('hide');}
+    categories.classList.add('hide');
+    quiz_box_Element.classlist.remove('hide');}
                              );
         
 

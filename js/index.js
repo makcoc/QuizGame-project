@@ -1,15 +1,15 @@
-const dota2_button = document.getElementById('start_dota2');
+const dota2_button = document.getElementById('dota2');
 const categories = document.getElementById('quiz_window');
 const h1 = document.getElementById('head_main');
 const questionElement = document.getElementById('question');
 const answerButtonsElement = document.getElementById('answer-buttons');
 const quiz_box_Element = document.getElementById('quiz_box');
 let i = 0;
-https://github.com/makcoc/QuizGame-project/blob/main/js/index.js
+
 
 
 const dota2questions = [
-    {https://github.com/makcoc/QuizGame-project/blob/main/js/index.js
+    {
         text: 'В каком году был оффициальный релиз Dota 2?',
         answers: ['2012', '2013', '2010', '2015'],
         correct: 1,

@@ -19,8 +19,10 @@
 }
 
 .header_main {
- font-size: 20pt;
+ font-size: 30px;
  font-weight: bold;
+ margin-bottom: 25px;
+
 }
 .hide {
   display: none;

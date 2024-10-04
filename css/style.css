@@ -8,7 +8,7 @@
   border-radius: 9px;
   border: 0;
   padding: 16px 16px;
-  width: 160px;
+  width: calc(50% - 12px);
   font-size: 16pt;
   }
 .main_btns:hover {
@@ -29,7 +29,7 @@
 .center-div
 {
   margin: 0 auto;
-  width: 400px;
+  max width: 400px;
   height: 100px;
 }
 

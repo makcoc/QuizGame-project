@@ -36,11 +36,57 @@ const dota2questions = [
         correct: 1,
     },
 ];
+let step = 0;
 
-dota2_button.addEventListener('click', function() {
-    categories.classList.add('hide');
-    quiz_box_Element.classlist.remove('hide');}
-                             );
-        
+dota2_button.addEventListener('click', function () {
+
+    deliteBtns();
+    changeTitle(step);
+    addBtns(step);
+    step++;
+}
+);
 
 
+// 1 задача удалятять прошлые кнопки после нажатия на выбор темы
+function deliteBtns() {
+    let btns = document.querySelectorAll('.main_btns');
+    btns.forEach(element => {
+        element.remove();
+    });
+
+}
+// меняем тему в TITLE 
+
+function changeTitle(step) {
+    let title = document.querySelector('.header_main');
+    title.innerHTML = dota2questions[step].text;
+
+}
+// 2 задача вывод новых кнопок с вопросами и тему
+function addBtns(pos) {
+    let body = document.querySelector('.categories');
+
+    let arrAnswer = dota2questions[pos].answers;
+
+    arrAnswer.forEach(element => {
+        let btn = document.createElement('button');
+        btn.classList.add('main_btns');
+        btn.innerHTML = element;
+        btn.addEventListener('click', function () {
+            deliteBtns();
+            changeTitle(step);
+            addBtns(step);
+            step++;
+
+        }
+        );
+        body.append(btn);
+    });
+
+}
+
+
+
+// 3 проверять правильность ответа
+//  менять вопрос с ответами ( если выбрали правильный вариант вопроса) 

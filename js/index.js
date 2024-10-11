@@ -40,7 +40,7 @@ let step = 0;
 
 dota2_button.addEventListener('click', function () {
 
-    deliteBtns();
+    deleteBtns();
     changeTitle(step);
     addBtns(step);
     step++;
@@ -74,7 +74,7 @@ function addBtns(pos) {
         btn.classList.add('main_btns');
         btn.innerHTML = element;
         btn.addEventListener('click', function () {
-            deliteBtns();
+            deleteBtns();
             changeTitle(step);
             addBtns(step);
             step++;
